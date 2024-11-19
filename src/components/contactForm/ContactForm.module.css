@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 20px;
+  margin: 25px 0;
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+}
+
+.formLabel {
+  display: flex;
+  flex-direction: column;
+}
+
+.formLabel:not(:first-child) {
+  margin-top: 15px;
+}
+
+.formBtn {
+  align-self: center;
+  background-color: #888888a5;
+  border-radius: 6px;
+  min-width: 150px;
+  margin-top: 15px;
+  transition: background-color 250ms;
+}
+
+.formBtn:hover {
+  background-color: rgb(59, 59, 60);
+}
+
+.formField {
+  padding: 5px 10px;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 12px;
+}

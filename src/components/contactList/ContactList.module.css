@@ -1,0 +1,20 @@
+.contactList {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.noContactsMess {
+  color: #eb5a5a;
+  width: 500px;
+  letter-spacing: 1.2;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 10px auto;
+  text-align: center;
+}

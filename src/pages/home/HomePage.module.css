@@ -1,0 +1,12 @@
+.mainCont {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.homeText {
+  font-size: 40px;
+  font-weight: 600;
+}
